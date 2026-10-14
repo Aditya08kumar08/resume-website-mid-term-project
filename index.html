@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Aditya Kumar | Resume</title>
 
 <style>
@@ -88,6 +89,12 @@ border-left:5px solid #667eea;
 border-radius:8px;
 }
 
+.job ul{
+margin:8px 0 0 20px;
+color:#444;
+line-height:1.7;
+}
+
 /* SKILLS */
 .skills{
 display:grid;
@@ -139,6 +146,15 @@ margin-top:30px;
 color:#eee;
 }
 
+/* SMALL SCREENS */
+@media (max-width:640px){
+body{padding:16px;}
+.container{padding:20px;}
+.header{flex-direction:column;text-align:center;}
+.skills{grid-template-columns:repeat(2,1fr);}
+table{font-size:13px;}
+}
+
 </style>
 </head>
 
@@ -147,45 +163,88 @@ color:#eee;
 <div class="container">
 
 <div class="header">
-<img src="yourphoto.jpg">
+<img src="yourphoto.jpg" alt="Aditya Kumar">
 <div>
 <h1>Aditya Kumar</h1>
-<h3>Web Developer | Social Media Manager</h3>
+<h3>Data Analyst | Dashboarding &amp; Business Analytics | Website Developer</h3>
 </div>
 </div>
 
 <section>
 <h2 class="title">Profile</h2>
 <p>
-As a Web Developer and Social Media Manager, I design and maintain responsive, user-friendly websites while ensuring seamless functionality and performance. I manage social media platforms to enhance brand visibility and audience engagement. Skilled in combining technical development with creative digital marketing strategies to boost online presence.
+BBA (Digital Business and Entrepreneurship) student at IIM Bangalore, 2024-27, with a parallel B.Tech in Computer Science at KIIT, Bhubaneswar. I work across data analysis, dashboarding and web development, from cleaning and structuring data to building interactive Power BI dashboards and business websites. I combine technical skills with business and marketing experience to support data-driven decisions.
 </p>
 </section>
 
 <section id="contact">
 <h2 class="title">Contact</h2>
-<p>📞 Phone: 9341860959</p>
-<p>📧 Email: pocom3personal@gmail.com</p>
+<p>📞 Phone: </p>
+<p>📧 Email: </p>
 </section>
 
 <section>
 <h2 class="title">Experience</h2>
 
 <div class="job">
+<h3>The Humanize Group</h3>
+<p><b>Jul – Aug 2026</b></p>
+<p><b>Data Analysis &amp; Dashboarding – Live Project</b></p>
+<ul>
+<li>Researched, verified, and cleaned 60+ journalist profiles to build a structured media intelligence database.</li>
+<li>Analysed journalist publications, beats, topics, and editorial relevance for targeted PR outreach.</li>
+<li>Developed an interactive Power BI dashboard with KPIs, filters, and visualizations to support data-driven decision-making.</li>
+</ul>
+</div>
+
+<div class="job">
 <h3>IKYAM HEALTH Ltd.</h3>
-<p><b>June – September 2025</b></p>
+<p><b>Jun – Sep 2025</b></p>
 <p><b>Business Development and Marketing Intern</b></p>
-<p>
-Gained hands-on experience in market research, client engagement, and strategy execution. Assisted in analyzing customer data, supporting marketing campaigns, and coordinating with team members to improve outreach. This role strengthened my communication skills, teamwork ability, and data-driven decision-making while providing practical exposure to business operations.
-</p>
+<ul>
+<li>Conducted market research and analysed customer data to identify business opportunities.</li>
+<li>Assisted in campaign tracking, reporting, and customer engagement initiatives.</li>
+<li>Supported data-driven decision-making and business development activities.</li>
+</ul>
 </div>
 
 <div class="job">
 <h3>M/S Jayanti Store</h3>
 <p><b>2024 – 2025</b></p>
 <p><b>Online Marketing and Web Development</b></p>
-<p>
-Developed a business website and managed its digital presence through social media platforms. Designed promotional content, handled online marketing activities, and implemented strategies to increase customer engagement. This experience enhanced both my technical web development abilities and creative marketing skills.
-</p>
+<ul>
+<li>Developed and maintained the business website.</li>
+<li>Managed social media presence and online marketing activities.</li>
+</ul>
+</div>
+
+</section>
+
+<section>
+<h2 class="title">Projects</h2>
+
+<div class="job">
+<h3>Media Intelligence &amp; Journalist Relevance Dashboard</h3>
+<p><b>Data Analysis &amp; Dashboarding Project</b></p>
+<p>Researched and cleaned 60+ journalist profiles into a structured, validated database. Built an interactive Power BI dashboard to analyse profiles, publications, beats, topics, and relevance for targeted PR outreach.</p>
+</div>
+
+<div class="job">
+<h3>Fukusu Cafe</h3>
+<p><b>Website Development &amp; Digital Order Management</b></p>
+<p>Developed a website for a bakery and café to digitalize the ordering process, so customers can place and track orders online with more convenience and operational efficiency.</p>
+</div>
+
+<div class="job">
+<h3>Fresh Cut</h3>
+<p><b>Business &amp; Operations Project</b></p>
+<p>Contributed to analysing business requirements and improving operational workflows. Assisted in developing solutions to enhance customer experience and business efficiency.</p>
+</div>
+
+<div class="job">
+<h3>Green Rego</h3>
+<p><b>Sustainability &amp; Business Analytics Project</b></p>
+<p>Participated in sustainability-focused project planning and business analysis. Assisted in identifying growth opportunities and presenting actionable insights.</p>
 </div>
 
 </section>
@@ -194,15 +253,25 @@ Developed a business website and managed its digital presence through social med
 <h2 class="title">Skills</h2>
 
 <div class="skills">
+<div class="skill">Data Analysis</div>
+<div class="skill">Dashboarding</div>
+<div class="skill">Data Visualization</div>
+<div class="skill">Business Analytics</div>
+<div class="skill">Reporting</div>
+<div class="skill">Microsoft Excel</div>
+<div class="skill">Google Sheets</div>
+<div class="skill">SQL</div>
+<div class="skill">Power BI</div>
+<div class="skill">Tableau</div>
 <div class="skill">HTML</div>
 <div class="skill">CSS</div>
 <div class="skill">JavaScript</div>
-<div class="skill">Design Software</div>
-<div class="skill">Typography</div>
-<div class="skill">Editing</div>
-<div class="skill">Project Management</div>
-<div class="skill">Creative Problem Solving</div>
+<div class="skill">C/C++</div>
+<div class="skill">Python</div>
+<div class="skill">Problem Solving</div>
 <div class="skill">Communication</div>
+<div class="skill">Teamwork</div>
+<div class="skill">Project Management</div>
 </div>
 
 </section>
@@ -219,6 +288,13 @@ Developed a business website and managed its digital presence through social med
 </tr>
 
 <tr>
+<td>IIM Bangalore</td>
+<td>BBA – Digital Business and Entrepreneurship</td>
+<td>2024–2027</td>
+<td>CGPA: 8.2</td>
+</tr>
+
+<tr>
 <td>KIIT, Bhubaneswar</td>
 <td>B.Tech – Computer Science</td>
 <td>2025–2029</td>
@@ -226,10 +302,10 @@ Developed a business website and managed its digital presence through social med
 </tr>
 
 <tr>
-<td>IIM Bangalore</td>
-<td>BBA – Digital Business</td>
-<td>2024–2027</td>
-<td>CGPA: 8.2</td>
+<td>Saint Teresa's School</td>
+<td>12th Board</td>
+<td>2024</td>
+<td>75%</td>
 </tr>
 
 <tr>
@@ -237,13 +313,6 @@ Developed a business website and managed its digital presence through social med
 <td>10th Board</td>
 <td>2022</td>
 <td>91%</td>
-</tr>
-
-<tr>
-<td>Chauhan Public School</td>
-<td>12th Board</td>
-<td>2024</td>
-<td>75%</td>
 </tr>
 
 </table>
@@ -254,21 +323,22 @@ Developed a business website and managed its digital presence through social med
 <h2 class="title">Achievements</h2>
 
 <div class="achievement">
-✔ Successfully developed and deployed a business website for a local store.
+✔ Maintaining strong academic performance while pursuing dual degree programs (2024–27).
 </div>
 
 <div class="achievement">
-✔ Completed internship in Business Development and Marketing with practical exposure to real-world projects.
+✔ Developed and deployed a business website for a local store (2024–25).
 </div>
 
 <div class="achievement">
-✔ Actively managed social media pages to improve online engagement and visibility.
+✔ Completed a Business Development &amp; Marketing internship with hands-on industry exposure (2025).
 </div>
 
-<div class="achievement">
-✔ Maintained strong academic performance while pursuing dual degrees.
-</div>
+</section>
 
+<section>
+<h2 class="title">Interests</h2>
+<p>Data analysis, dashboarding, and web development.</p>
 </section>
 
 </div>
